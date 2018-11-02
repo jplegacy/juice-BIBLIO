@@ -3,7 +3,6 @@ body{
     background-color:DarkRed;
     border:none;
     }
-
 .shadow{
     box-shadow: -10px 15px 20px #000;
     background-color:grey;
@@ -20,18 +19,19 @@ body{
     display: block;
     }
 #banner{
-        padding-left:100px;
-        padding-right:100px;
+        text-decoration: bold;
+        display :flex;
+        justify-content: center;
         padding-top:10px;
         padding-bottom:10px;
         text-align: center;
-        color:white;
-        width:500px;
-        margin: auto;
+        width:50%;
+        margin:0 auto;
+        background-image: url(https://www.dezignwithaz.com/images/grey-camo-skins.jpg);
         }   
 #nav{
-        Display:flex;
-        Justify-content:space-around;
+        display:flex;
+        justify-content:space-around;
         white-space: nowrap;
         text-align: center;
         padding-top: 30px;
@@ -54,29 +54,30 @@ body{
         margin-right: 20px;
         padding: 10px;
         text-decoration: none;
+
     }
 #nav a:hover {
         color:darkred;
         text-decoration: none;
-        border-top: 2px dashed darkred;
+        border-top: 10px double darkred;
         text-align: center;
     }
 
 #maincolumn {
     float: left;
-    width: 25%;
+    width: 23%;
     background-color:grey;
     color:white;
     padding-left:1%;
     padding-right:1%;
     border-right:solid 10px darkred;
-    border-top:solid 10px darkred;
+    border-left:black solid 2px;
     padding-bottom:20px;
 
 }
 #Leftcolumn {
     float: left;
-    width: 25%;
+    width: 23%;
     padding-left:1%;
     padding-right:1%;
     background-color:grey;
@@ -89,8 +90,10 @@ body{
     }
 h1{
     font-family: 'Shadows Into Light', sans-serif;
-
-    font-size:35px;
+    background-color: black;
+    padding:15px;
+    color:darkred;
+    font-size:45px;
     }
 p{
     font-family: 'PT Sans Narrow', sans-serif;
