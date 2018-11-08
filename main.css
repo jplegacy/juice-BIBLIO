@@ -1,12 +1,12 @@
 
 body{
-    background-color:DarkRed;
+    background-color:purple;
     border:none;
     }
 .shadow{
     box-shadow: -10px 15px 20px #000;
     background-color:grey;
-    color:darkred;
+    color:purple;
     }
 .space{
     margin-top:10px;
@@ -57,9 +57,9 @@ body{
 
     }
 #nav a:hover {
-        color:darkred;
+        color:purple;
         text-decoration: none;
-        border-top: 10px double darkred;
+        border-top: 10px double purple;
         text-align: center;
     }
 
@@ -70,7 +70,7 @@ body{
     color:white;
     padding-left:1%;
     padding-right:1%;
-    border-right:solid 10px darkred;
+    border-right:solid 10px purple;
     border-left:black solid 2px;
     padding-bottom:20px;
 
@@ -85,14 +85,14 @@ body{
 #footer{
     text-align:center;
     width:100%;
-    background-color:darkred;
+    background-color:purple;
     color:white;
     }
 h1{
     font-family: 'Shadows Into Light', sans-serif;
     background-color: black;
     padding:15px;
-    color:darkred;
+    color:purple;
     font-size:45px;
     }
 p{
