@@ -73,7 +73,7 @@ body{
     border-right:solid 10px purple;
     border-left:black solid 2px;
     padding-bottom:20px;
-
+    text-align: center;
 }
 #Leftcolumn {
     float: left;
@@ -81,6 +81,8 @@ body{
     padding-left:1%;
     padding-right:1%;
     background-color:grey;
+    color: white;
+    text-align: center;
 }
 #footer{
     text-align:center;
@@ -104,6 +106,7 @@ h2{
     }
 h3{
     font-family: 'PT Sans Narrow', sans-serif;
+    color:white;
     }  
 #flex{
     display:flex;
