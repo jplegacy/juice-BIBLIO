@@ -1,0 +1,147 @@
+
+body{
+    background-color:purple;
+    border:none;
+    }
+.shadow{
+    box-shadow: -10px 15px 20px #000;
+    background-color:grey;
+    color:purple;
+    }
+.space{
+    margin-top:10px;
+    }
+.TrippiePics{
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+    padding-bottom:10px;
+    display: block;
+    }
+#banner{
+        text-decoration: bold; 
+        display :flex;
+        justify-content: center;
+        padding-top:10px;
+        padding-bottom:10px;
+        text-align: center;
+        width:50%;
+        margin:0 auto;
+        background-image: url(https://www.dezignwithaz.com/images/grey-camo-skins.jpg);
+       
+        }
+#banner a {
+    text-decoration: none;
+}
+#banner h1:hover {
+    border: purple solid 5px;
+}   
+#nav{
+        display:flex;
+        justify-content:space-around;
+        white-space: nowrap;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom:20px;
+        white-space: nowrap;
+        background-color:black;
+        color:white;
+        width:50%;
+        margin-right:auto;
+        margin-left:auto;
+        padding-left:2%;
+        padding-right:2%;
+        }
+#nav a {
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size:16px;
+        font-weight: bold;
+        color: grey;
+        text-transform: uppercase;
+        margin-right: 20px;
+        padding: 10px;
+        text-decoration: none;
+
+    }
+#nav a:hover {
+        color:purple;
+        text-decoration: none;
+        border-top: 10px double purple;
+        text-align: center;
+    }
+#topcolumn{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+#maincolumn {
+    float: left;
+    width: 23%;
+    background-color:grey;
+    color:white;
+    padding-left:1%;
+    padding-right:1%;
+    border-left:black solid 1px;
+    padding-bottom:20px;
+    text-align: center;
+}
+#Leftcolumn {
+    float: left;
+    width: 23%;
+    padding-left:1%;
+    padding-right:1%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+   border-right: black solid 1px;
+}
+#footer{
+    text-align:center;
+    width:100%;
+    font-family: 'Shadows Into Light', sans-serif;
+    color:white;
+    background-color: black;
+    width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:2%;
+    padding-right:2%;
+    }
+h1{
+    font-family: 'Shadows Into Light', sans-serif;
+    background-color: black;
+    padding:15px;
+    color:purple;
+    font-size:45px;
+    }
+p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:18px;
+}
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    }
+h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:white;
+    }  
+li{
+    text-align: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:white;
+}
+#flex{
+    display:flex;
+    justify-content: center;
+
+}
+.quicklinks {
+    font-style: italic;
+    text-decoration: none;
+    font-family:'PT Sans Narrow', sans-serif;
+    font-size:16px;
+    color: white;
+}
+.quicklinks:hover {
+    color:purple;
+}
