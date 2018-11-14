@@ -3,11 +3,6 @@ body{
     background-color:purple;
     border:none;
     }
-.shadow{
-    box-shadow: -10px 15px 20px #000;
-    background-color:grey;
-    color:purple;
-    }
 .space{
     margin-top:10px;
     }
@@ -72,8 +67,27 @@ body{
 #topcolumn{
         width: 50%;
         margin: 0 auto;
+        background-color:grey;
     }
+.topcolumnflex{
+    display:flex;
+    justify-content: space-around;
+}
+.iconpics{
+    width: 30%;
+    height: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+}
+.iconpics img:hover {
+    background-color: purple;
+     border-radius: 30px;
+}
+.icons{
+    width: 100%;
+    height: 100%;
+}
 #maincolumn {
     float: left;
     width: 23%;
