@@ -3,16 +3,29 @@ body{
     background-color:purple;
     border:none;
     }
-.space{
-    margin-top:10px;
+h1{
+    font-family: 'Shadows Into Light', sans-serif;
+    background-color: black;
+    padding:15px;
+    color:purple;
+    font-size:45px;
     }
-.TrippiePics{
-    width:95%;
-    margin-right:auto;
-    margin-left:auto;
-    padding-bottom:10px;
-    display: block;
+p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:18px;
+}
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
     }
+h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:white;
+    }  
+li{
+    text-align: left;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:white;
+}
 #banner{
         text-decoration: bold; 
         display :flex;
@@ -73,20 +86,10 @@ body{
     display:flex;
     justify-content: space-around;
 }
-.iconpics{
-    width: 30%;
-    height: 30%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+#flex{
+    display:flex;
+    justify-content: center;
 
-}
-.iconpics img:hover {
-    background-color: purple;
-     border-radius: 100px;
-}
-.icons{
-    width: 100%;
-    height: 100%;
 }
 #maincolumn {
     float: left;
@@ -121,33 +124,33 @@ body{
     padding-left:2%;
     padding-right:2%;
     }
-h1{
-    font-family: 'Shadows Into Light', sans-serif;
-    background-color: black;
-    padding:15px;
-    color:purple;
-    font-size:45px;
+.space{
+    margin-top:10px;
     }
-p{
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size:18px;
-}
-h2{
-    font-family: 'PT Sans Narrow', sans-serif;
+.TrippiePics{
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+    padding-bottom:10px;
+    display: block;
     }
-h3{
-    font-family: 'PT Sans Narrow', sans-serif;
-    color:white;
-    }  
-li{
-    text-align: left;
-    font-family: 'PT Sans Narrow', sans-serif;
-    color:white;
+.pichover:hover{
+    border:solid purple 10px;
 }
-#flex{
-    display:flex;
-    justify-content: center;
+.iconpics{
+    width: 30%;
+    height: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+}
+.iconpics img:hover {
+    background-color: purple;
+     border-radius: 100px;
+}
+.icons{
+    width: 100%;
+    height: 100%;
 }
 .quicklinks {
     font-style: italic;
@@ -159,3 +162,6 @@ li{
 .quicklinks:hover {
     color:purple;
 }
+
+
+
